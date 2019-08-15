@@ -6,8 +6,17 @@ h1 {
   margin-top: 15px;
 }
 
-#questions {
+.quiz {
   padding: 15px;
+}
+
+.results {
+  display: none;
+}
+
+.btn {
+  border-color: rgba(180, 33, 28, 0.29);
+  background-color: rgba(180, 33, 28, 0.29);
 }
 
 
