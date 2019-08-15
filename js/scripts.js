@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#quiz").submit(function(event){
     event.preventDefault();
+    $(".results").hide();
 
     var home=$("input:radio[name=home]:checked").val();
     var play=$("input:radio[name=play]:checked").val();
